@@ -1,7 +1,7 @@
 # Genetic Risk Prediction using cis-eQTL Analysis and PRS
 
 ## Project Overview
-This project performs a cis-eQTL analysis using 1000 Genomes data to develop polygenic risk scores (PRS) for predicting gene expression and disease risk. The study evaluates different p-value and \(R^2\) thresholds to optimize model performance, with the goal of understanding genetic liability for gene expression and its potential application in disease prediction.
+This project utilizes cis-eQTL analysis to explore the genetic basis of gene expression and calculate polygenic risk scores (PRS) for predicting gene expression and disease risk. By leveraging 1000 Genomes data and integrating individual-level data (e.g., 23andMe), the study identifies genetic variants associated with traits and evaluates their predictive power across various thresholds. The project aims to advance our understanding of genetic liability, enhance disease risk predictions, and contribute to the development of personalized medicine.
 
 ## Repository Structure
 - `data/`: Contains raw and processed datasets.
@@ -21,11 +21,12 @@ This project performs a cis-eQTL analysis using 1000 Genomes data to develop pol
 ## Getting Started
 Prerequisites
 - Python 3.7 or higher
-- PLINK 1.9 installed and configured ([can be downloaded from here](https://www.cog-genomics.org/plink/1.9/).
+- PLINK 1.9 installed and configured ([can be downloaded from here](https://www.cog-genomics.org/plink/1.9/)).
 - Clone this repository.
 - Install required packages:
    ```bash
    pip install -r requirements.txt
+- Run the Jupyter notebooks.
 
 ### Example Outputs
 - PRS distribution for traits like height, extraversion, and openness.
