@@ -5,11 +5,11 @@ This project performs a cis-eQTL analysis using 1000 Genomes data to develop pol
 
 ## Repository Structure
 - `data/`: Contains raw and processed datasets.
-   - merge_data
+   - merge_data needs to be unzipped. 
 - **External Data Files** (must be downloaded separately):
   - [GD462.GeneQuantRPKM.50FN.samplename.resk10.txt](https://drive.google.com/drive/folders/1CaE4rGz7yP0LPaS6Kv_SoBgdc1I99EWL?usp=drive_link): Gene expression data used for training and validation.
   - [all_cis_eQTL_results.csv](https://drive.google.com/drive/folders/1CaE4rGz7yP0LPaS6Kv_SoBgdc1I99EWL?usp=drive_link): Results from the cis-eQTL analysis, including associations between SNPs and gene expression.
-  - [Height GWAS Summary Statistics]([https://example-link-to-height-gwas.com](https://drive.google.com/drive/folders/1CaE4rGz7yP0LPaS6Kv_SoBgdc1I99EWL?usp=drive_link)): Dataset containing summary statistics for height, including SNPs, odds ratios (OR), and p-values, required for PRS calculation.
+  - [Height GWAS Summary Statistics](https://drive.google.com/drive/folders/1CaE4rGz7yP0LPaS6Kv_SoBgdc1I99EWL?usp=drive_link): Dataset containing summary statistics for height, including SNPs, odds ratios (OR), and p-values, required for PRS calculation.
   - [Genetics of Personality Consortium (GPC) GWAS Data](https://tweelingenregister.vu.nl/gpc#): Summary statistics for personality traits such as extraversion and openness.
 
 - `notebooks/`:  Jupyter notebooks for exploratory data analysis, visualization, and final predictive modeling workflows.
