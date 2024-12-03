@@ -5,7 +5,7 @@ This project utilizes cis-eQTL analysis to explore the genetic basis of gene exp
 
 ## Repository Structure
 - `data/`: Contains raw and processed datasets.
-   - merge_data needs to be unzipped. 
+   - merge_data: 1000 Genomes data that were merged with Tiffany's 23andMe data. PLINK files need to be unzipped. 
 - **External Data Files** (must be downloaded separately):
   - [GD462.GeneQuantRPKM.50FN.samplename.resk10.txt](https://drive.google.com/drive/folders/1CaE4rGz7yP0LPaS6Kv_SoBgdc1I99EWL?usp=drive_link): Gene expression data used for training and validation.
   - [all_cis_eQTL_results.csv](https://drive.google.com/drive/folders/1CaE4rGz7yP0LPaS6Kv_SoBgdc1I99EWL?usp=drive_link): Results from the cis-eQTL analysis, including associations between SNPs and gene expression.
