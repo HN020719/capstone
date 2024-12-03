@@ -1,0 +1,32 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --bfile ../data/merged_data
+  --extract ../output/PRS_tiffany_valid_snps.txt
+  --keep ../data/merged_data.fam
+  --out ../output/PRS_tiffany_results
+  --score ../output/PRS_tiffany_score_file.txt 1 2 3 header
+
+Hostname: kikusunokis-MacBook-Pro.local
+Working directory: /Users/nancyh/Desktop/hartwell/capstone/capstone/notebooks
+Start time: Mon Dec  2 21:44:10 2024
+
+Random number seed: 1733204650
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+728323 variants loaded from .bim file.
+490 people (0 males, 1 female, 489 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../output/PRS_tiffany_results.nosex .
+--extract: 6595 variants remaining.
+--keep: 490 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 490 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.0952577.
+6595 variants and 490 people pass filters and QC.
+Note: No phenotypes present.
+Warning: 4542 lines skipped in --score file (0 due to variant ID mismatch, 4542
+due to allele code mismatch); see ../output/PRS_tiffany_results.nopred for
+details.
+--score: 2052 valid predictors loaded.
+--score: Results written to ../output/PRS_tiffany_results.profile .
+
+End time: Mon Dec  2 21:44:10 2024
